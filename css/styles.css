@@ -748,3 +748,284 @@ nav .line {
     letter-spacing: 1.8px;
   }
 }
+.tour {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.tour header {
+  max-width: 981px;
+  margin: 0 auto;
+  height: 200px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tour header span {
+  color: white;
+  font-size: 60px;
+  font-family: Proxima;
+  text-transform: uppercase;
+}
+.tour .tours {
+  max-width: 818px;
+  margin: 48px auto 0 auto;
+  max-width: 818px;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tour .tours .tourPromo {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 55px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.tour .tours .tourPromo .place {
+  font-size: 60px;
+}
+.tour .tours .tourPromo .price {
+  font-size: 30px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+.tour .tours .tourPromo .promoBtn {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #79addc;
+  cursor: pointer;
+}
+.tour .tours .tourPromo2 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 55px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.tour .tours .tourPromo2 .place {
+  font-size: 60px;
+}
+.tour .tours .tourPromo2 .price {
+  font-size: 30px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+.tour .tours .tourPromo2 .promoBtn {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #79addc;
+  cursor: pointer;
+}
+.tour .tours .tourPromo3 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 55px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.tour .tours .tourPromo3 .place {
+  font-size: 60px;
+}
+.tour .tours .tourPromo3 .price {
+  font-size: 30px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+.tour .tours .tourPromo3 .promoBtn {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #79addc;
+  cursor: pointer;
+}
+.tour .tours .tourPromo4 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 55px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.tour .tours .tourPromo4 .place {
+  font-size: 60px;
+}
+.tour .tours .tourPromo4 .price {
+  font-size: 30px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+.tour .tours .tourPromo4 .promoBtn {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #79addc;
+  cursor: pointer;
+}
+.tour .tours .tourPromo5 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 55px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.tour .tours .tourPromo5 .place {
+  font-size: 60px;
+}
+.tour .tours .tourPromo5 .price {
+  font-size: 30px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+.tour .tours .tourPromo5 .promoBtn {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #79addc;
+  cursor: pointer;
+}
+.tour .tours .tourPromo6 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 55px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.tour .tours .tourPromo6 .place {
+  font-size: 60px;
+}
+.tour .tours .tourPromo6 .price {
+  font-size: 30px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+.tour .tours .tourPromo6 .promoBtn {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #79addc;
+  cursor: pointer;
+}
+.tour .tours .tourPromo7 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-07.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 55px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.tour .tours .tourPromo7 .place {
+  font-size: 60px;
+}
+.tour .tours .tourPromo7 .price {
+  font-size: 30px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+.tour .tours .tourPromo7 .promoBtn {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #79addc;
+  cursor: pointer;
+}
+.tour .tours .tourPromo8 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 55px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.tour .tours .tourPromo8 .place {
+  font-size: 60px;
+}
+.tour .tours .tourPromo8 .price {
+  font-size: 30px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+.tour .tours .tourPromo8 .promoBtn {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #79addc;
+  cursor: pointer;
+}
+.tour .tours .tourPromo9 {
+  width: 236px;
+  height: 304px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-09.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 55px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.tour .tours .tourPromo9 .place {
+  font-size: 60px;
+}
+.tour .tours .tourPromo9 .price {
+  font-size: 30px;
+  margin-top: -20px;
+  padding-bottom: 50px;
+}
+.tour .tours .tourPromo9 .promoBtn {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: #79addc;
+  cursor: pointer;
+}
+
+@media all and (max-width: 818px) {
+  .tour .tours {
+    flex-direction: column;
+    align-items: center;
+  }
+}
