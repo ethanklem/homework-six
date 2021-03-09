@@ -1,0 +1,750 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: Proxima;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: PThin;
+  src: url(fonts/Proxima-Nova-Thin.otf);
+}
+@font-face {
+  font-family: ExtraCondense;
+  src: url(fonts/FontsFree-Net-Proxima-Nova-ExCn-Reg.otf);
+}
+.hero {
+  max-width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+}
+.hero .homeText {
+  margin-top: 89px;
+  max-width: 1280px;
+  text-align: center;
+  color: #fff;
+}
+.hero .homeText .title {
+  font-size: 60px;
+  margin-right: 40px;
+  font-family: Proxima;
+}
+.hero .homeText .homesentence {
+  font-size: 20px;
+  padding-bottom: 20px;
+  margin-right: 40px;
+  font-family: GillSans;
+}
+.hero .homeText .homeButton {
+  background-color: #79ADDC;
+  padding: 10px 25px;
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 40px;
+  font-family: GillSans;
+}
+
+@media only screen and (max-width: 1060px) {
+  .homeText .title {
+    margin-left: 30px;
+  }
+  .homeText .homesentence {
+    margin-left: 30px;
+  }
+  .homeText .homeButton {
+    margin-left: 30px;
+  }
+}
+.promo-tours {
+  max-width: 1280px;
+  min-height: 304px;
+  margin: -50px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 210px;
+  padding-right: 210px;
+}
+.promo-tours .promoIsrael {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 50px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.promo-tours .promoIsrael .place {
+  font-size: 60px;
+}
+.promo-tours .promoIsrael .price {
+  font-size: 30px;
+  margin-top: -20px;
+}
+.promo-tours .promoIsrael .tourButton {
+  width: 133px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.promo-tours .promoUSA {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 50px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.promo-tours .promoUSA .place {
+  font-size: 60px;
+}
+.promo-tours .promoUSA .price {
+  font-size: 30px;
+  margin-top: -20px;
+}
+.promo-tours .promoUSA .tourButton {
+  width: 133px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.promo-tours .promoAustralia {
+  height: 304px;
+  width: 236px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 50px;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-family: Proxima;
+}
+.promo-tours .promoAustralia .place {
+  font-size: 60px;
+}
+.promo-tours .promoAustralia .price {
+  font-size: 30px;
+  margin-top: -20px;
+}
+.promo-tours .promoAustralia .tourButton {
+  width: 133px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: GillSans;
+}
+
+@media only screen and (max-width: 1060px) {
+  .promo-tours {
+    width: 236px;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .promo-tours .promoIsrael {
+    margin-bottom: 30px;
+  }
+  .promo-tours .promoUSA {
+    margin-bottom: 30px;
+  }
+  .promo-tours .promoAustralia {
+    margin-bottom: 30px;
+  }
+}
+footer {
+  max-width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #79ADDC;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding-top: 45px;
+  font-family: GillSans;
+}
+footer .logofoot {
+  width: 92px;
+  height: 42px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  margin-top: -15px;
+}
+footer .logofoot p {
+  font-size: 20px;
+  color: white;
+  font-family: GillSans;
+  margin-top: 19px;
+  letter-spacing: 1.8px;
+}
+footer .footerText {
+  font-size: 12px;
+}
+footer .socials {
+  font-size: 20px;
+  width: 116px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1060px) {
+  footer {
+    margin-top: 50px;
+    padding-left: 20px;
+  }
+  footer .footerText {
+    margin-left: 60px;
+  }
+  footer .logofoot {
+    width: 92px;
+    height: 42px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+  }
+  footer .logofoot p {
+    font-size: 13px;
+    color: white;
+    margin-top: 19px;
+    letter-spacing: 1.8px;
+  }
+  footer .socials {
+    padding-right: 20px;
+  }
+}
+.booking-form {
+  max-width: 1280px;
+  min-height: 890px;
+  margin: 0 auto;
+  padding-top: 30px;
+  font-family: GillSans;
+}
+.booking-form .form {
+  margin-left: 210px;
+}
+.booking-form h1 {
+  color: black;
+  font-size: 60px;
+  padding-bottom: 10px;
+  font-family: Proxima;
+}
+.booking-form .first-inputs {
+  display: flex;
+}
+.booking-form .first-inputs ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .inputname {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 344px;
+  height: 58px;
+}
+.booking-form .inputemail {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 453px;
+  height: 58px;
+  margin-left: 20px;
+}
+.booking-form .check {
+  display: flex;
+}
+.booking-form .check img {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  margin-top: 18px;
+  margin-left: -30px;
+}
+.booking-form .check ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .check .checkText {
+  font-size: 18px;
+  padding-right: 25px;
+  margin-top: 18px;
+}
+.booking-form .check .checkInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 727px;
+  height: 58px;
+}
+.booking-form .checkout {
+  display: flex;
+}
+.booking-form .checkout img {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  margin-top: 18px;
+  margin-left: -30px;
+}
+.booking-form .checkout ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .checkout .checkoutText {
+  font-size: 18px;
+  padding-right: 16px;
+  margin-top: 18px;
+}
+.booking-form .checkout .checkoutInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 727px;
+  height: 58px;
+}
+.booking-form .triple {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 190px;
+  width: 818px;
+}
+.booking-form .triple .adult {
+  display: flex;
+}
+.booking-form .triple .adult img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 160px;
+  margin-top: 18px;
+}
+.booking-form .triple .adult ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .triple .adult .adultText {
+  font-size: 18px;
+  padding-right: 16px;
+  margin-top: 18px;
+}
+.booking-form .triple .adult .adultInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 103px;
+  height: 58px;
+  margin-left: 33px;
+}
+.booking-form .triple .children {
+  display: flex;
+}
+.booking-form .triple .children img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 150px;
+  margin-top: 18px;
+}
+.booking-form .triple .children ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .triple .children .childrenText {
+  font-size: 18px;
+  padding-right: 16px;
+  margin-top: 18px;
+}
+.booking-form .triple .children .childrenInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 103px;
+  height: 58px;
+}
+.booking-form .triple .rooms {
+  display: flex;
+}
+.booking-form .triple .rooms img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: 140px;
+  margin-top: 18px;
+}
+.booking-form .triple .rooms ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .triple .rooms .roomsText {
+  font-size: 18px;
+  padding-right: 16px;
+  margin-top: 18px;
+}
+.booking-form .triple .rooms .roomsInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 103px;
+  height: 58px;
+}
+.booking-form .message ::placeholder {
+  color: black;
+  font-size: 18px;
+  padding-left: 20px;
+  font-family: GillSans;
+}
+.booking-form .message .messageInput {
+  border: 1px solid #79ADDC;
+  background-color: transparent;
+  width: 818px;
+  height: 192px;
+  padding-bottom: 140px;
+}
+.booking-form .submit {
+  width: 813px;
+  height: 60px;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: #79ADDC;
+  color: white;
+  border-style: none;
+  margin-top: 50px;
+  cursor: pointer;
+  font-family: GillSans;
+}
+
+@media only screen and (max-width: 1060px) {
+  .booking-form {
+    width: 236px;
+  }
+  .booking-form .form {
+    margin-left: 0px;
+  }
+  .booking-form h1 {
+    text-align: center;
+  }
+  .booking-form .first-inputs {
+    flex-direction: column;
+  }
+  .booking-form .inputname {
+    width: 276px;
+    margin-bottom: 10px;
+  }
+  .booking-form .inputemail {
+    width: 276px;
+    margin-left: 0px;
+  }
+  .booking-form .check .checkInput {
+    width: 200px;
+  }
+  .booking-form .checkout .checkoutInput {
+    width: 200px;
+    margin-left: 9px;
+  }
+  .booking-form .triple {
+    flex-direction: column;
+    width: 200px;
+  }
+  .booking-form .triple .adult img {
+    margin-left: 150px;
+  }
+  .booking-form .triple .adult .adultInput {
+    width: 103px;
+    margin-left: 23px;
+    margin-bottom: 10px;
+  }
+  .booking-form .triple .children img {
+    margin-left: 150px;
+  }
+  .booking-form .triple .children .childrenInput {
+    width: 103px;
+    margin-bottom: 10px;
+  }
+  .booking-form .triple .rooms img {
+    margin-left: 150px;
+  }
+  .booking-form .triple .rooms .roomsInput {
+    width: 103px;
+    margin-left: 11px;
+  }
+  .booking-form .message .messageInput {
+    width: 276px;
+  }
+  .booking-form .submit {
+    width: 276px;
+  }
+}
+nav {
+  max-width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #fff solid 2px;
+  font-family: GillSans;
+}
+nav .logo {
+  width: 92px;
+  height: 38px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+nav .logo p {
+  font-size: 20px;
+  color: white;
+  margin-top: 17px;
+  letter-spacing: 1.8px;
+}
+nav .links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+  font-size: 15px;
+}
+nav .line {
+  color: #79ADDC;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1280px) {
+  nav {
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 655px) {
+  nav {
+    padding-left: 10px;
+  }
+  nav .logo {
+    width: 92px;
+    height: 42px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+  }
+  nav .logo p {
+    font-size: 13px;
+    color: white;
+    margin-top: 19px;
+    letter-spacing: 1.8px;
+  }
+}
+.about {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 98px;
+}
+.about .about-top-section {
+  font-family: GillSans;
+  font-size: 16px;
+}
+.about .about-top-section h1 {
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  padding-right: 30px;
+  font-size: 60px;
+  font-family: proxima-nova-condensed, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.about .about-top-section p {
+  padding-top: 13px;
+}
+.about .about-bottom-secion {
+  margin-top: 120px;
+  padding-bottom: 117px;
+}
+.about .about-bottom-secion h3 {
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  padding-right: 30px;
+  font-size: 40px;
+  font-family: proxima-nova-condensed, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.about .about-bottom-secion .client {
+  padding-top: 14px;
+  max-width: 676px;
+  min-height: 150px;
+  margin-bottom: 16px;
+  display: flex;
+  font-family: GillSans;
+  font-style: italic;
+  font-size: 16px;
+}
+.about .about-bottom-secion .client .client-image1 {
+  width: 450px;
+  height: 150px;
+  background-image: url(../images/about-client-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about .about-bottom-secion .client .client-image2 {
+  width: 450px;
+  height: 150px;
+  background-image: url(../images/about-client-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about .about-bottom-secion .client .client-quote {
+  position: relative;
+  min-height: 50px;
+  width: 100%;
+  padding-left: 25px;
+}
+.about .about-bottom-secion .client .client-quote p:last-of-type {
+  margin-bottom: 25px;
+}
+.about .about-bottom-secion .client .client-quote .client-name {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #79ADDC;
+  font-size: 20px;
+  font-family: proxima-nova-condensed, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 980px) {
+  .about {
+    padding: 10px;
+    padding-top: 98px;
+  }
+}
+.navabout {
+  max-width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+  font-family: GillSans;
+  margin-top: 27px;
+}
+.navabout .logoabout {
+  width: 92px;
+  height: 38px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+.navabout .logoabout p {
+  font-size: 20px;
+  color: black;
+  margin-top: 17px;
+  letter-spacing: 1.8px;
+}
+.navabout .linksabout {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+}
+.navabout .linksabout a {
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  font-size: 15px;
+}
+.navabout .linksabout .linea {
+  color: #79ADDC;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .navabout {
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 655px) {
+  .navabout {
+    padding-left: 10px;
+  }
+  .navabout .logoabout {
+    width: 92px;
+    height: 42px;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .navabout .logoabout p {
+    font-size: 13px;
+    margin-top: 19px;
+    letter-spacing: 1.8px;
+  }
+}
